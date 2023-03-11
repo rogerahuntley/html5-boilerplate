@@ -1,0 +1,29 @@
+/* this resets all default css, so you might have to define some here */
+/* keeps browsers consistent though and makes designs more intentional */
+
+@import 'global.css';
+
+/* this is the css that gets pulled into the main DOM (the .html file) */
+/* web components often have their own css */
+
+/* body */
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #0E0017;
+  background: linear-gradient(to bottom, #0E0017ff, #0E001777), url(/assets/background-image.png);
+  background-position: center;
+  background-size: cover;
+}
+
+body main {
+  max-width: 600px;
+  padding: 1rem;
+  margin: auto;
+  color: white;
+}
+

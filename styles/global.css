@@ -1,0 +1,14 @@
+/* this is css we want to use across the front end and all web components */
+/* we can put fonts and save defaults in here */
+
+@import 'reset.css';
+
+h1 {
+  font-size: 2em;
+  margin-bottom: .2em;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: .15em;
+}
